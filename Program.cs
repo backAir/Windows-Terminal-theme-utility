@@ -51,6 +51,12 @@ class Program
             case "c":
                 printCurrent();
                 return;
+            case "image":
+            case "i":
+                if(args.Length<2){return;}
+                var image = getBackgroundImage(args[1]);
+                jsonObj["profiles"]["defaults"]["backgroundImage"] = image;
+               break;
             case "help":
             case "-help":
             case "-h":
@@ -65,6 +71,16 @@ class Program
     }
 
 
+static string getBackgroundImage(string image){
+    var images = new Dictionary<string, string>
+    {
+        { "peter", "peter.jpg" },
+        { "puff", "jigglypuffpfp.png" }
+    };
+
+    var currentPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "imgs");
+    return images.TryGetValue(image.ToLower(), out var img) ? Path.Combine(currentPath, img) : Path.Combine(currentPath, image);
+}
 static void invalidCommand()
 {
     Console.WriteLine("Invalid command. Use 'help' to see the list of available commands.");
