@@ -1,6 +1,5 @@
 {
-    "schemes":[
-  {
+  "blu": {
     "background": "#141414",
     "black": "#0C0C0C",
     "blue": "#0037DA",
@@ -23,7 +22,7 @@
     "white": "#CCCCCC",
     "yellow": "#C19C00"
   },
-  {
+  "3024 Night": {
     "background": "#090300",
     "black": "#090300",
     "blue": "#01A0E4",
@@ -46,7 +45,7 @@
     "white": "#A5A2A2",
     "yellow": "#FDED02"
   },
-  {
+  "Aardvark Blue": {
     "background": "#102040",
     "black": "#191919",
     "blue": "#1370D3",
@@ -69,7 +68,7 @@
     "white": "#BEBEBE",
     "yellow": "#DBBA00"
   },
-  {
+  "AdventureTime": {
     "background": "#1F1D45",
     "black": "#050404",
     "blue": "#0F4AC6",
@@ -92,30 +91,30 @@
     "white": "#F8DCC0",
     "yellow": "#E7741E"
   },
-  {
-    "background": "#0F1610",
-    "black": "#112616",
-    "blue": "#2F6A7F",
-    "brightBlack": "#3C4812",
-    "brightBlue": "#00AAE0",
-    "brightCyan": "#00E0C4",
-    "brightGreen": "#18E000",
-    "brightPurple": "#0058E0",
-    "brightRed": "#E08009",
-    "brightWhite": "#73FA91",
-    "brightYellow": "#BDE000",
-    "cursorColor": "#73FA91",
-    "cyan": "#327F77",
-    "foreground": "#637D75",
-    "green": "#2F7E25",
+  "AlienBlood": {
     "name": "AlienBlood",
-    "purple": "#47587F",
-    "red": "#7F2B27",
-    "selectionBackground": "#1D4125",
-    "white": "#647D75",
-    "yellow": "#717F24"
+    "black": "#112616",
+    "red": "#7f2b27",
+    "green": "#2f7e25",
+    "yellow": "#717f24",
+    "blue": "#2f6a7f",
+    "purple": "#47587f",
+    "cyan": "#327f77",
+    "white": "#647d75",
+    "brightBlack": "#3c4812",
+    "brightRed": "#e08009",
+    "brightGreen": "#18e000",
+    "brightYellow": "#bde000",
+    "brightBlue": "#00aae0",
+    "brightPurple": "#0058e0",
+    "brightCyan": "#00e0c4",
+    "brightWhite": "#73fa91",
+    "background": "#0f1610",
+    "foreground": "#637d75",
+    "selectionBackground": "#1d4125",
+    "cursorColor": "#73fa91"
   },
-  {
+  "Apple Classic": {
     "background": "#2C2B2B",
     "black": "#000000",
     "blue": "#0225C7",
@@ -138,7 +137,7 @@
     "white": "#C7C7C7",
     "yellow": "#C7C400"
   },
-  {
+  "AtelierSulphurpool": {
     "background": "#202746",
     "black": "#202746",
     "blue": "#3D8FD1",
@@ -161,7 +160,7 @@
     "white": "#979DB4",
     "yellow": "#C08B30"
   },
-  {
+  "Banana Blueberry": {
     "background": "#191323",
     "black": "#17141F",
     "blue": "#22E8DF",
@@ -184,7 +183,7 @@
     "white": "#F1F1F1",
     "yellow": "#E6C62F"
   },
-  {
+  "Belafonte Night": {
     "background": "#20111B",
     "black": "#20111B",
     "blue": "#426A79",
@@ -207,7 +206,7 @@
     "white": "#968C83",
     "yellow": "#EAA549"
   },
-  {
+  "BirdsOfParadise": {
     "background": "#2A1F1D",
     "black": "#573D26",
     "blue": "#5A86AD",
@@ -230,7 +229,7 @@
     "white": "#E0DBB7",
     "yellow": "#E99D2A"
   },
-  {
+  "Blue Matrix": {
     "background": "#101116",
     "black": "#101116",
     "blue": "#00B0FF",
@@ -253,7 +252,7 @@
     "white": "#C7C7C7",
     "yellow": "#FFFC58"
   },
-  {
+  "BlueBerryPie": {
     "background": "#1C0C28",
     "black": "#0A4C62",
     "blue": "#90A5BD",
@@ -276,7 +275,7 @@
     "white": "#F0E8D6",
     "yellow": "#EAB9A8"
   },
-  {
+  "BlueDolphin": {
     "background": "#006984",
     "black": "#292D3E",
     "blue": "#82AAFF",
@@ -299,7 +298,7 @@
     "white": "#D0D0D0",
     "yellow": "#F4D69F"
   },
-  {
+  "Borland": {
     "background": "#0000A4",
     "black": "#4F4F4F",
     "blue": "#96CBFE",
@@ -322,7 +321,7 @@
     "white": "#EEEEEE",
     "yellow": "#FFFFB6"
   },
-  {
+  "Brogrammer": {
     "background": "#131313",
     "black": "#1F1F1F",
     "blue": "#2A84D2",
@@ -345,7 +344,7 @@
     "white": "#D6DBE5",
     "yellow": "#ECBA0F"
   },
-  {
+  "Bubbles": {
     "background": "#161D38",
     "black": "#000000",
     "blue": "#589DF6",
@@ -368,7 +367,7 @@
     "white": "#BBBBBB",
     "yellow": "#FEF02A"
   },
-  {
+  "Builtin Solarized Dark": {
     "background": "#002B36",
     "black": "#073642",
     "blue": "#268BD2",
@@ -391,7 +390,7 @@
     "white": "#EEE8D5",
     "yellow": "#B58900"
   },
-  {
+  "C64": {
     "background": "#40318D",
     "black": "#090300",
     "blue": "#40318D",
@@ -414,7 +413,7 @@
     "white": "#FFFFFF",
     "yellow": "#BFCE72"
   },
-  {
+  "Calamity": {
     "background": "#2F2833",
     "black": "#2F2833",
     "blue": "#3B79C7",
@@ -437,7 +436,7 @@
     "white": "#D5CED9",
     "yellow": "#E9D7A5"
   },
-  {
+  "Catppuccin Frappe": {
     "background": "#303446",
     "black": "#51576D",
     "blue": "#8CAAEE",
@@ -460,7 +459,7 @@
     "white": "#B5BFE2",
     "yellow": "#E5C890"
   },
-  {
+  "Catppuccin Macchiato": {
     "background": "#24273A",
     "black": "#494D64",
     "blue": "#8AADF4",
@@ -483,7 +482,7 @@
     "white": "#B8C0E0",
     "yellow": "#EED49F"
   },
-  {
+  "Ciapre": {
     "background": "#191C27",
     "black": "#181818",
     "blue": "#576D8C",
@@ -506,7 +505,7 @@
     "white": "#AEA47F",
     "yellow": "#CC8B3F"
   },
-  {
+  "Cobalt Neon": {
     "background": "#142838",
     "black": "#142631",
     "blue": "#8FF586",
@@ -529,7 +528,7 @@
     "white": "#BA46B2",
     "yellow": "#E9E75C"
   },
-  {
+  "CrayonPonyFish": {
     "background": "#150707",
     "black": "#2B1B1D",
     "blue": "#8C87B0",
@@ -552,7 +551,7 @@
     "white": "#68525A",
     "yellow": "#AB311B"
   },
-  {
+  "Crystal Violet": {
     "background": "#1E1423",
     "black": "#0A0A14",
     "blue": "#5050E6",
@@ -575,7 +574,7 @@
     "white": "#D2D2D2",
     "yellow": "#EBA041"
   },
-  {
+  "CutiePro": {
     "background": "#181818",
     "black": "#000000",
     "blue": "#42D9C5",
@@ -598,7 +597,7 @@
     "white": "#D5C3C3",
     "yellow": "#F58669"
   },
-  {
+  "CyberPunk2077": {
     "background": "#272932",
     "black": "#272932",
     "blue": "#9381FF",
@@ -621,7 +620,7 @@
     "white": "#D1C5C0",
     "yellow": "#FDF500"
   },
-  {
+  "Cyberdyne": {
     "background": "#151144",
     "black": "#080808",
     "blue": "#0071CF",
@@ -644,7 +643,7 @@
     "white": "#F1F1F1",
     "yellow": "#D2A700"
   },
-  {
+  "Dark Pastel": {
     "background": "#000000",
     "black": "#000000",
     "blue": "#5555FF",
@@ -667,7 +666,7 @@
     "white": "#BBBBBB",
     "yellow": "#FFFF55"
   },
-  {
+  "Desert": {
     "background": "#333333",
     "black": "#4D4D4D",
     "blue": "#CD853F",
@@ -690,7 +689,7 @@
     "white": "#F5DEB3",
     "yellow": "#F0E68C"
   },
-  {
+  "DimmedMonokai": {
     "background": "#1F1F1F",
     "black": "#3A3D43",
     "blue": "#4F76A1",
@@ -713,7 +712,7 @@
     "white": "#B9BCBA",
     "yellow": "#C5A635"
   },
-  {
+  "Django": {
     "background": "#0B2F20",
     "black": "#000000",
     "blue": "#245032",
@@ -736,7 +735,7 @@
     "white": "#FFFFFF",
     "yellow": "#FFE862"
   },
-  {
+  "DjangoSmooth": {
     "background": "#245032",
     "black": "#000000",
     "blue": "#989898",
@@ -759,7 +758,7 @@
     "white": "#E8E8E7",
     "yellow": "#FFE862"
   },
-  {
+  "Doom Peacock": {
     "background": "#2B2A27",
     "black": "#1C1F24",
     "blue": "#2A6CC6",
@@ -782,7 +781,7 @@
     "white": "#EDE0CE",
     "yellow": "#BCD42A"
   },
-  {
+  "Duotone Dark": {
     "background": "#1F1D27",
     "black": "#1F1D27",
     "blue": "#FFC284",
@@ -805,7 +804,7 @@
     "white": "#B7A1FF",
     "yellow": "#D9B76E"
   },
-  {
+  "ENCOM": {
     "background": "#000000",
     "black": "#000000",
     "blue": "#0081FF",
@@ -828,7 +827,7 @@
     "white": "#BBBBBB",
     "yellow": "#FFD000"
   },
-  {
+  "Earthsong": {
     "background": "#292520",
     "black": "#121418",
     "blue": "#1398B9",
@@ -851,7 +850,7 @@
     "white": "#E5C6AA",
     "yellow": "#F5AE2E"
   },
-  {
+  "Espresso": {
     "background": "#323232",
     "black": "#353535",
     "blue": "#6C99BB",
@@ -874,7 +873,7 @@
     "white": "#EEEEEC",
     "yellow": "#FFC66D"
   },
-  {
+  "Espresso Libre": {
     "background": "#2A211C",
     "black": "#000000",
     "blue": "#0066FF",
@@ -897,7 +896,7 @@
     "white": "#D3D7CF",
     "yellow": "#F0E53A"
   },
-  {
+  "Fahrenheit": {
     "background": "#000000",
     "black": "#1D1D1D",
     "blue": "#720102",
@@ -920,7 +919,7 @@
     "white": "#FFFFCE",
     "yellow": "#FECF75"
   },
-  {
+  "Fairyfloss": {
     "background": "#5A5475",
     "black": "#040303",
     "blue": "#C2FFDF",
@@ -943,7 +942,7 @@
     "white": "#F8F8F0",
     "yellow": "#E6C000"
   },
-  {
+  "FirefoxDev": {
     "background": "#0E1011",
     "black": "#002831",
     "blue": "#359DDF",
@@ -966,7 +965,7 @@
     "white": "#DCDCDC",
     "yellow": "#A57706"
   },
-  {
+  "Flat": {
     "background": "#002240",
     "black": "#222D3F",
     "blue": "#3167AC",
@@ -989,7 +988,7 @@
     "white": "#B0B6BA",
     "yellow": "#E58D11"
   },
-  {
+  "Flatland": {
     "background": "#1D1F21",
     "black": "#1D1D19",
     "blue": "#5096BE",
@@ -1012,7 +1011,7 @@
     "white": "#FFFFFF",
     "yellow": "#F4EF6D"
   },
-  {
+  "FunForrest": {
     "background": "#251200",
     "black": "#000000",
     "blue": "#4699A3",
@@ -1035,7 +1034,7 @@
     "white": "#DDC265",
     "yellow": "#BE8A13"
   },
-  {
+  "Ganyu": {
     "background": "#221B2F",
     "black": "#12061B",
     "blue": "#5256C3",
@@ -1058,7 +1057,7 @@
     "white": "#ECEBEA",
     "yellow": "#F8B433"
   },
-  {
+  "Glorious": {
     "background": "#201D27",
     "black": "#1E1E1E",
     "blue": "#16777A",
@@ -1081,7 +1080,7 @@
     "white": "#978771",
     "yellow": "#CC881A"
   },
-  {
+  "Grass": {
     "background": "#13773D",
     "black": "#000000",
     "blue": "#0000A3",
@@ -1104,7 +1103,7 @@
     "white": "#BBBBBB",
     "yellow": "#E7B000"
   },
-  {
+  "Grey-green": {
     "background": "#002A1A",
     "black": "#000000",
     "blue": "#00DEFF",
@@ -1127,7 +1126,7 @@
     "white": "#FFFFFF",
     "yellow": "#F1FF01"
   },
-  {
+  "GruvboxDark": {
     "background": "#282828",
     "black": "#282828",
     "blue": "#458588",
@@ -1150,7 +1149,7 @@
     "white": "#A89984",
     "yellow": "#D79921"
   },
-  {
+  "HaX0R_BLUE": {
     "background": "#010515",
     "black": "#010921",
     "blue": "#10B6FF",
@@ -1173,7 +1172,7 @@
     "white": "#FAFAFA",
     "yellow": "#10B6FF"
   },
-  {
+  "HaX0R_GR33N": {
     "background": "#020F01",
     "black": "#001F0B",
     "blue": "#15D00D",
@@ -1196,7 +1195,7 @@
     "white": "#FAFAFA",
     "yellow": "#15D00D"
   },
-  {
+  "HaX0R_R3D": {
     "background": "#200101",
     "black": "#1F0000",
     "blue": "#B00D0D",
@@ -1219,7 +1218,7 @@
     "white": "#FAFAFA",
     "yellow": "#B00D0D"
   },
-  {
+  "Hipster Green": {
     "background": "#100B05",
     "black": "#000000",
     "blue": "#246EB2",
@@ -1242,7 +1241,7 @@
     "white": "#BFBFBF",
     "yellow": "#BFBF00"
   },
-  {
+  "Hivacruz": {
     "background": "#132638",
     "black": "#202746",
     "blue": "#3D8FD1",
@@ -1265,7 +1264,7 @@
     "white": "#979DB4",
     "yellow": "#C08B30"
   },
-  {
+  "Hopscotch": {
     "background": "#322931",
     "black": "#322931",
     "blue": "#1290BF",
@@ -1288,7 +1287,7 @@
     "white": "#B9B5B8",
     "yellow": "#FDCC59"
   },
-  {
+  "Horizon": {
     "background": "#1C1E26",
     "black": "#0A0A0D",
     "blue": "#26BBD9",
@@ -1311,7 +1310,7 @@
     "white": "#E5E5E5",
     "yellow": "#FAB795"
   },
-  {
+  "IC_Orange_PPL": {
     "background": "#262626",
     "black": "#000000",
     "blue": "#BD6D00",
@@ -1334,7 +1333,7 @@
     "white": "#FFC88A",
     "yellow": "#CAAF00"
   },
-  {
+  "Jackie Brown": {
     "background": "#2C1D16",
     "black": "#2C1D16",
     "blue": "#246EB2",
@@ -1357,7 +1356,7 @@
     "white": "#BFBFBF",
     "yellow": "#BEBF00"
   },
-  {
+  "Laser": {
     "background": "#030D18",
     "black": "#626262",
     "blue": "#FED300",
@@ -1380,7 +1379,7 @@
     "white": "#F1F1F1",
     "yellow": "#09B4BD"
   },
-  {
+  "Medallion": {
     "background": "#1D1908",
     "black": "#000000",
     "blue": "#616BB0",
@@ -1403,7 +1402,7 @@
     "white": "#CAC29A",
     "yellow": "#D3BD26"
   },
-  {
+  "Misterioso": {
     "background": "#2D3743",
     "black": "#000000",
     "blue": "#338F86",
@@ -1426,7 +1425,7 @@
     "white": "#E1E1E0",
     "yellow": "#FFAD29"
   },
-  {
+  "MonaLisa": {
     "background": "#120B0D",
     "black": "#351B0E",
     "blue": "#515C5D",
@@ -1449,7 +1448,7 @@
     "white": "#F7D75C",
     "yellow": "#C36E28"
   },
-  {
+  "Moonlight II": {
     "background": "#222436",
     "black": "#191A2A",
     "blue": "#82AAFF",
@@ -1472,7 +1471,7 @@
     "white": "#C8D3F5",
     "yellow": "#FFC777"
   },
-  {
+  "Neon": {
     "background": "#14161A",
     "black": "#000000",
     "blue": "#0208CB",
@@ -1495,7 +1494,7 @@
     "white": "#C7C7C7",
     "yellow": "#FFFC7E"
   },
-  {
+  "Neopolitan": {
     "background": "#271F19",
     "black": "#000000",
     "blue": "#253B76",
@@ -1518,7 +1517,7 @@
     "white": "#F8F8F8",
     "yellow": "#FBDE2D"
   },
-  {
+  "Night City": {
     "background": "#090819",
     "black": "#283034",
     "blue": "#E388FF",
@@ -1541,7 +1540,7 @@
     "white": "#6600FF",
     "yellow": "#FFD400"
   },
-  {
+  "Ocean": {
     "background": "#224FBC",
     "black": "#000000",
     "blue": "#0000B2",
@@ -1564,7 +1563,7 @@
     "white": "#BFBFBF",
     "yellow": "#999900"
   },
-  {
+  "Ollie": {
     "background": "#222125",
     "black": "#000000",
     "blue": "#2D57AC",
@@ -1587,7 +1586,7 @@
     "white": "#8A8EAC",
     "yellow": "#AC4300"
   },
-  {
+  "PaleNightHC": {
     "background": "#3E4251",
     "black": "#000000",
     "blue": "#82AAFF",
@@ -1610,7 +1609,7 @@
     "white": "#FFFFFF",
     "yellow": "#FFCB6B"
   },
-  {
+  "Pandora": {
     "background": "#141E43",
     "black": "#000000",
     "blue": "#338F86",
@@ -1633,7 +1632,7 @@
     "white": "#E2E2E2",
     "yellow": "#FFAD29"
   },
-  {
+  "Paraiso Dark": {
     "background": "#2F1E2E",
     "black": "#2F1E2E",
     "blue": "#06B6EF",
@@ -1656,7 +1655,7 @@
     "white": "#A39E9B",
     "yellow": "#FEC418"
   },
-  {
+  "Peter": {
     "background": "#141414",
     "black": "#0C0C0C",
     "blue": "#0037DA",
@@ -1679,7 +1678,7 @@
     "white": "#CCCCCC",
     "yellow": "#C19C00"
   },
-  {
+  "Popping and Locking": {
     "background": "#181921",
     "black": "#1D2021",
     "blue": "#458588",
@@ -1702,7 +1701,7 @@
     "white": "#A89984",
     "yellow": "#D79921"
   },
-  {
+  "Purple Rain": {
     "background": "#21084A",
     "black": "#000000",
     "blue": "#00A2FA",
@@ -1725,7 +1724,7 @@
     "white": "#FFFFFF",
     "yellow": "#FFC400"
   },
-  {
+  "QB64 Super Dark Blue": {
     "background": "#000027",
     "black": "#000000",
     "blue": "#054663",
@@ -1748,7 +1747,7 @@
     "white": "#989898",
     "yellow": "#808000"
   },
-  {
+  "Red Alert": {
     "background": "#762423",
     "black": "#000000",
     "blue": "#489BEE",
@@ -1771,7 +1770,7 @@
     "white": "#D6D6D6",
     "yellow": "#BEB86B"
   },
-  {
+  "Red Planet": {
     "background": "#222222",
     "black": "#202020",
     "blue": "#69819E",
@@ -1794,7 +1793,7 @@
     "white": "#B9AA99",
     "yellow": "#E8BF6A"
   },
-  {
+  "Red Sands": {
     "background": "#7A251E",
     "black": "#000000",
     "blue": "#0072FF",
@@ -1817,7 +1816,7 @@
     "white": "#BBBBBB",
     "yellow": "#E7B000"
   },
-  {
+  "Retro": {
     "background": "#000000",
     "black": "#13A10E",
     "blue": "#13A10E",
@@ -1840,7 +1839,7 @@
     "white": "#13A10E",
     "yellow": "#13A10E"
   },
-  {
+  "Retrowave": {
     "background": "#070825",
     "black": "#181A1F",
     "blue": "#46BDFF",
@@ -1863,7 +1862,7 @@
     "white": "#FFFFFF",
     "yellow": "#FCEE54"
   },
-  {
+  "Rose Pine": {
     "background": "#191724",
     "black": "#706E86",
     "blue": "#31748F",
@@ -1886,7 +1885,7 @@
     "white": "#E0DEF4",
     "yellow": "#F6C177"
   },
-  {
+  "Royal": {
     "background": "#100815",
     "black": "#241F2B",
     "blue": "#6580B0",
@@ -1909,7 +1908,7 @@
     "white": "#524966",
     "yellow": "#B49D27"
   },
-  {
+  "Ryuuko": {
     "background": "#2C3941",
     "black": "#2C3941",
     "blue": "#6A8E95",
@@ -1932,7 +1931,7 @@
     "white": "#ECECEC",
     "yellow": "#B1A990"
   },
-  {
+  "Sakura": {
     "background": "#18131E",
     "black": "#000000",
     "blue": "#6964AB",
@@ -1955,7 +1954,7 @@
     "white": "#998EAC",
     "yellow": "#BC7053"
   },
-  {
+  "Scarlet Protocol": {
     "background": "#1C153D",
     "black": "#101116",
     "blue": "#0271B6",
@@ -1978,7 +1977,7 @@
     "white": "#C7C7C7",
     "yellow": "#FAF945"
   },
-  {
+  "SeaShells": {
     "background": "#09141B",
     "black": "#17384C",
     "blue": "#1E4950",
@@ -2001,7 +2000,7 @@
     "white": "#DEB88D",
     "yellow": "#FCA02F"
   },
-  {
+  "Seafoam Pastel": {
     "background": "#243435",
     "black": "#757575",
     "blue": "#4D7B82",
@@ -2024,7 +2023,7 @@
     "white": "#E0E0E0",
     "yellow": "#ADA16D"
   },
-  {
+  "Serendipity Midnight": {
     "background": "#1C1E2D",
     "black": "#232534",
     "blue": "#5BA2D0",
@@ -2047,7 +2046,7 @@
     "white": "#DEE0EF",
     "yellow": "#F8D2C9"
   },
-  {
+  "Shaman": {
     "background": "#001015",
     "black": "#012026",
     "blue": "#449A86",
@@ -2070,7 +2069,7 @@
     "white": "#405555",
     "yellow": "#5E8BAA"
   },
-  {
+  "Slate": {
     "background": "#222222",
     "black": "#222222",
     "blue": "#264B49",
@@ -2093,7 +2092,7 @@
     "white": "#02C5E0",
     "yellow": "#C4C9C0"
   },
-  {
+  "SleepyHollow": {
     "background": "#121214",
     "black": "#572100",
     "blue": "#5F63B4",
@@ -2116,7 +2115,7 @@
     "white": "#AF9A91",
     "yellow": "#B55600"
   },
-  {
+  "Tomorrow Night Blue": {
     "background": "#002451",
     "black": "#000000",
     "blue": "#BBDAFF",
@@ -2139,7 +2138,7 @@
     "white": "#FFFFFF",
     "yellow": "#FFEEAD"
   },
-  {
+  "Tomorrow Night Burns": {
     "background": "#151515",
     "black": "#252525",
     "blue": "#FC595F",
@@ -2162,7 +2161,7 @@
     "white": "#F5F5F5",
     "yellow": "#D3494E"
   },
-  {
+  "ToyChest": {
     "background": "#24364B",
     "black": "#2C3F58",
     "blue": "#325D96",
@@ -2185,7 +2184,7 @@
     "white": "#23D183",
     "yellow": "#DB8E27"
   },
-  {
+  "Treehouse": {
     "background": "#191919",
     "black": "#321300",
     "blue": "#58859A",
@@ -2208,7 +2207,7 @@
     "white": "#786B53",
     "yellow": "#AA820C"
   },
-  {
+  "Ubuntu (modified)": {
     "background": "#300A24",
     "black": "#2E3436",
     "blue": "#3465A4",
@@ -2231,7 +2230,7 @@
     "white": "#D3D7CF",
     "yellow": "#C4A000"
   },
-  {
+  "UltraViolent": {
     "background": "#242728",
     "black": "#242728",
     "blue": "#47E0FB",
@@ -2254,7 +2253,7 @@
     "white": "#E1E1E1",
     "yellow": "#FFF727"
   },
-  {
+  "Urple": {
     "background": "#1B1B23",
     "black": "#000000",
     "blue": "#564D9B",
@@ -2277,7 +2276,7 @@
     "white": "#87799C",
     "yellow": "#AD5C42"
   },
-  {
+  "Vaughn": {
     "background": "#25234F",
     "black": "#25234F",
     "blue": "#5555FF",
@@ -2300,7 +2299,7 @@
     "white": "#709080",
     "yellow": "#DFAF8F"
   },
-  {
+  "Vesper": {
     "background": "#101010",
     "black": "#101010",
     "blue": "#ACA1CF",
@@ -2323,7 +2322,7 @@
     "white": "#A0A0A0",
     "yellow": "#E6B99D"
   },
-  {
+  "VibrantInk": {
     "background": "#000000",
     "black": "#878787",
     "blue": "#44B4CC",
@@ -2346,7 +2345,7 @@
     "white": "#F5F5F5",
     "yellow": "#FFCC00"
   },
-  {
+  "WarmNeon": {
     "background": "#404040",
     "black": "#000000",
     "blue": "#4261C5",
@@ -2369,7 +2368,7 @@
     "white": "#D0B8A3",
     "yellow": "#DAE145"
   },
-  {
+  "Whimsy": {
     "background": "#29283B",
     "black": "#535178",
     "blue": "#65AEF7",
@@ -2392,7 +2391,7 @@
     "white": "#FFFFFF",
     "yellow": "#FDD877"
   },
-  {
+  "WildCherry": {
     "background": "#1F1726",
     "black": "#000507",
     "blue": "#883CDC",
@@ -2415,7 +2414,7 @@
     "white": "#FFF8DE",
     "yellow": "#FFD16F"
   },
-  {
+  "Zenburn": {
     "background": "#3F3F3F",
     "black": "#4D4D4D",
     "blue": "#506070",
@@ -2438,7 +2437,7 @@
     "white": "#DCDCCC",
     "yellow": "#F0DFAF"
   },
-  {
+  "coolnight": {
     "background": "#010C18",
     "black": "#0B3B61",
     "blue": "#1376F9",
@@ -2461,7 +2460,7 @@
     "white": "#16FDA2",
     "yellow": "#FFF383"
   },
-  {
+  "cyberpunk": {
     "background": "#332A57",
     "black": "#000000",
     "blue": "#00BFFF",
@@ -2484,7 +2483,7 @@
     "white": "#FFFFFF",
     "yellow": "#FFFA6A"
   },
-  {
+  "darkmatrix": {
     "background": "#070C0E",
     "black": "#091013",
     "blue": "#2C9A84",
@@ -2507,7 +2506,7 @@
     "white": "#006536",
     "yellow": "#7E8000"
   },
-  {
+  "duckbones": {
     "background": "#0E101A",
     "black": "#0E101A",
     "blue": "#00A3CB",
@@ -2530,7 +2529,7 @@
     "white": "#EBEFC0",
     "yellow": "#E39500"
   },
-  {
+  "iTerm2 Solarized Dark": {
     "background": "#002B36",
     "black": "#073642",
     "blue": "#268BD2",
@@ -2553,7 +2552,7 @@
     "white": "#EEE8D5",
     "yellow": "#B58900"
   },
-  {
+  "matrix": {
     "background": "#0F191C",
     "black": "#0F191C",
     "blue": "#3F5242",
@@ -2576,7 +2575,7 @@
     "white": "#507350",
     "yellow": "#FFD700"
   },
-  {
+  "nightfox": {
     "background": "#192330",
     "black": "#393B44",
     "blue": "#719CD6",
@@ -2599,7 +2598,7 @@
     "white": "#DFDFE0",
     "yellow": "#DBC074"
   },
-  {
+  "purplepeter": {
     "background": "#2A1A4A",
     "black": "#0A0520",
     "blue": "#66D9EF",
@@ -2622,7 +2621,7 @@
     "white": "#FFBA81",
     "yellow": "#EFDFAC"
   },
-  {
+  "rebecca": {
     "background": "#292A44",
     "black": "#12131E",
     "blue": "#7AA5FF",
@@ -2645,7 +2644,7 @@
     "white": "#E4E3E9",
     "yellow": "#F2E7B7"
   },
-  {
+  "rose-pine-moon": {
     "background": "#232136",
     "black": "#393552",
     "blue": "#3E8FB0",
@@ -2668,7 +2667,7 @@
     "white": "#E0DEF4",
     "yellow": "#F6C177"
   },
-  {
+  "seoulbones_dark": {
     "background": "#4B4B4B",
     "black": "#4B4B4B",
     "blue": "#97BDDE",
@@ -2691,7 +2690,7 @@
     "white": "#DDDDDD",
     "yellow": "#FFDF9B"
   },
-  {
+  "shades-of-purple": {
     "background": "#1E1D40",
     "black": "#000000",
     "blue": "#6943FF",
@@ -2714,7 +2713,7 @@
     "white": "#C7C7C7",
     "yellow": "#FFE700"
   },
-  {
+  "synthwave-everything": {
     "background": "#2A2139",
     "black": "#FEFEFE",
     "blue": "#6D77B3",
@@ -2737,7 +2736,7 @@
     "white": "#FEFEFE",
     "yellow": "#FEDE5D"
   },
-  {
+  "zenbones_dark": {
     "background": "#1C1917",
     "black": "#1C1917",
     "blue": "#6099C0",
@@ -2760,7 +2759,7 @@
     "white": "#B4BDC3",
     "yellow": "#B77E64"
   },
-  {
+  "zenwritten_dark": {
     "background": "#191919",
     "black": "#191919",
     "blue": "#6099C0",
@@ -2782,29 +2781,5 @@
     "selectionBackground": "#404040",
     "white": "#BBBBBB",
     "yellow": "#B77E64"
-  },
-  {
-    "name": "AlienBlood",
-    "black": "#112616",
-    "red": "#7f2b27",
-    "green": "#2f7e25",
-    "yellow": "#717f24",
-    "blue": "#2f6a7f",
-    "purple": "#47587f",
-    "cyan": "#327f77",
-    "white": "#647d75",
-    "brightBlack": "#3c4812",
-    "brightRed": "#e08009",
-    "brightGreen": "#18e000",
-    "brightYellow": "#bde000",
-    "brightBlue": "#00aae0",
-    "brightPurple": "#0058e0",
-    "brightCyan": "#00e0c4",
-    "brightWhite": "#73fa91",
-    "background": "#0f1610",
-    "foreground": "#637d75",
-    "selectionBackground": "#1d4125",
-    "cursorColor": "#73fa91"
   }
-]
 }

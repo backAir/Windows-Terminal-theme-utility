@@ -1,5 +1,6 @@
 ﻿using System.Text;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using ConsoleTables;
 class Program
 {
@@ -26,16 +27,28 @@ class Program
 
         switch (args[0].ToLower())
         {
+            case "convert":
+            case "cv":
+                var input = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "themes_raw.json");
+                var output = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "themes.json");
+                ThemesJson.convertFile(input, output);
+                return;
             case "set":
             case "s":
                 if (args.Length < 2) { return; }
-                var theme = getTheme(args[1]);
-                if (theme == "") { return; }
-                jsonObj["profiles"]["defaults"]["colorScheme"] = theme;
-                Console.WriteLine("Theme set to " + theme);
+                setTheme(args[1]);
+                // if (theme == "") { return; }
+                // jsonObj["profiles"]["defaults"]["colorScheme"] = theme;
+                // Console.WriteLine("Theme set to " + theme);
                 break;
             case "acrylic":
             case "a":
+                if (jsonObj["profiles"]["defaults"]["useAcrylic"] == null)
+                {
+                    jsonObj["profiles"]["defaults"]["useAcrylic"] = true;
+                    break;
+                }
+
                 jsonObj["profiles"]["defaults"]["useAcrylic"] = !(bool)jsonObj["profiles"]["defaults"]["useAcrylic"];
                 break;
             case "opacity":
@@ -76,8 +89,6 @@ class Program
         File.WriteAllText(json, JsonConvert.SerializeObject(jsonObj, Formatting.Indented));
     }
 
-
-
     static void rgb()
     {
         var theme = getThemeJson("rgb");
@@ -102,22 +113,22 @@ class Program
             timer.Stop();
     }
     static (int R, int G, int B) HueToRgb(int hue)
-{
-    double c = 1.0;
-    double x = 1.0 - Math.Abs((hue / 60.0) % 2 - 1);
-    double m = 0;
+    {
+        double c = 1.0;
+        double x = 1.0 - Math.Abs((hue / 60.0) % 2 - 1);
+        double m = 0;
 
-    double r = 0, g = 0, b = 0;
+        double r = 0, g = 0, b = 0;
 
-    if (hue < 60) { r = c; g = x; b = 0; }
-    else if (hue < 120) { r = x; g = c; b = 0; }
-    else if (hue < 180) { r = 0; g = c; b = x; }
-    else if (hue < 240) { r = 0; g = x; b = c; }
-    else if (hue < 300) { r = x; g = 0; b = c; }
-    else { r = c; g = 0; b = x; }
+        if (hue < 60) { r = c; g = x; b = 0; }
+        else if (hue < 120) { r = x; g = c; b = 0; }
+        else if (hue < 180) { r = 0; g = c; b = x; }
+        else if (hue < 240) { r = 0; g = x; b = c; }
+        else if (hue < 300) { r = x; g = 0; b = c; }
+        else { r = c; g = 0; b = x; }
 
-    return ((int)((r + m) * 255), (int)((g + m) * 255), (int)((b + m) * 255));
-}
+        return ((int)((r + m) * 255), (int)((g + m) * 255), (int)((b + m) * 255));
+    }
     static string getBackgroundImage(string image)
     {
         var images = new Dictionary<string, string>
@@ -196,34 +207,62 @@ class Program
     //     { "peter", "Peter" }
     // };
 
-    static string getTheme(string arg)
+    static void setTheme(string arg)
     {
-        // var keys = themes.Keys.ToList();
-        allThemes = getAllThemes();
+        // Console.WriteLine(AppDomain.CurrentDomain.BaseDirectory);
+        var themes = File.ReadAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "themes.json"));
+
+        ThemesJson.makeJsonDict(themes);
+
+        allThemes = ThemesJson.getThemeNames();
         var len = allThemes.Length;
+        string? selected_theme = "";
+        int currIndex;
         switch (arg.ToLower())
         {
+            case "list":
+            case "l":
+                Console.WriteLine("Available themes:");
+                foreach (var name in allThemes)
+                {
+                    Console.WriteLine(name);
+                }
+                return;
             case "random":
             case "r":
                 var random = new Random();
-                return allThemes[random.Next(allThemes.Length)];
-            // return themes[keys[random.Next(keys.Count)]];
+                selected_theme = allThemes[random.Next(0, len)];
+                break;
             case "next":
             case "n":
-                var current = jsonObj!["profiles"]["defaults"]["colorScheme"];
-                var index = Array.IndexOf(allThemes, current.ToString());
-                Console.WriteLine(index);
-                Console.WriteLine(current.ToString());
-                if (index == -1)
-                {
-                    return "";
-                }
-                return allThemes[(index + 1) % len];
+                currIndex = Array.IndexOf(allThemes, jsonObj!["profiles"]["defaults"]["colorScheme"].ToString()!);
+                selected_theme = allThemes[(currIndex + 1) % len];
+                break;
+            case "prev":
+            case "previous":
+            case "p":
+                currIndex = Array.IndexOf(allThemes, jsonObj!["profiles"]["defaults"]["colorScheme"].ToString()!);
+                selected_theme = allThemes[(currIndex - 1) % len];
+                break;
             default:
-                return arg;
+                selected_theme = allThemes.FirstOrDefault(t => t.Equals(arg, StringComparison.OrdinalIgnoreCase));
+                if (selected_theme == null)
+                {
+                    Console.WriteLine($"Theme '{arg}' does not exist.");
+                    return;
+                }
+                break;
         }
+        jsonObj!["profiles"]["defaults"]["colorScheme"] = selected_theme;
+        var theme = ThemesJson.getThemeJson(selected_theme);
+
+        // Console.WriteLine(theme);
+        jsonObj!["profiles"]["defaults"].Remove("foreground");
+
+        jsonObj["schemes"] = JArray.FromObject(new List<dynamic> { theme });        // jsonObj["schemes"] = schemes;
+        Console.WriteLine("Theme set to " + selected_theme);
     }
-    static string[] allThemes;
+    static string[]? allThemes;
     static string[] getAllThemes()
     {
         var schemes = jsonObj!["schemes"];
